@@ -8,17 +8,18 @@ makeCacheMatrix <- function(x = matrix()) {
                 inverse << NULL
         }
         
-        getMatrix <- function (y) {
+        getMatrix <- function () {
                 return (matrix)
         }
+
+        setInverse < function (y) {
+          inverse <<- y
+        }
         
-        getInverse <- function (y) {
+        getInverse <- function () {
                 return (inverse)
         }
         
-        setInverse < function (y) {
-                inverse <<- y
-        }
 }
 
 
